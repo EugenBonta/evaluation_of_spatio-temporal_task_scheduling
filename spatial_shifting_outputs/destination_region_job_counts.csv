@@ -1,6 +1,6 @@
-,DE-LU,FR,NL,PL,FI
-Local-only,36,36,36,36,36
-Home-first / carbon-unaware,36,36,36,36,36
-Greedy Spatial (CI-only),0,167,0,0,13
-Greedy Spatial (compute + network),0,167,0,0,13
-MILP spatial oracle,0,168,0,0,12
+,DE-LU,FR,NL,PL,SE,NO,FI
+Local-only,161,161,165,161,151,162,148
+Home-first / carbon-unaware,203,188,178,165,154,164,148
+Greedy Spatial (CI-only),243,198,100,22,196,146,295
+Greedy Spatial (compute + network),234,200,112,22,198,144,290
+MILP spatial oracle,180,206,98,73,195,252,196
