@@ -1,0 +1,104 @@
+{
+  "regions": [
+    "DE-LU",
+    "FR",
+    "NL",
+    "PL",
+    "SE",
+    "NO",
+    "FI"
+  ],
+  "regional_files": {
+    "DE-LU": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\DE-LU_generation_with_estimated_carbon_intensity.csv",
+    "FR": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\FR_generation_with_estimated_carbon_intensity.csv",
+    "NL": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\NL_generation_with_estimated_carbon_intensity.csv",
+    "PL": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\PL_generation_with_estimated_carbon_intensity.csv",
+    "SE": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\SE_aggregated_generation_with_estimated_carbon_intensity.csv",
+    "NO": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\NO_aggregated_generation_with_estimated_carbon_intensity.csv",
+    "FI": "C:\\Games\\Univer\\teza_master\\evaluation_of_spatio-temporal_task_scheduling\\data\\FI_generation_with_estimated_carbon_intensity.csv"
+  },
+  "target_date": "2026-10-08",
+  "evaluation_dates": [
+    "2026-01-11",
+    "2026-05-27",
+    "2026-10-08"
+  ],
+  "local_timezone": "Europe/Brussels",
+  "slot_hours": 0.25,
+  "arrival_slots": 192,
+  "horizon_slots": 288,
+  "target_window_slots": [
+    96,
+    192
+  ],
+  "n_jobs_per_region": 900,
+  "base_seed": 42,
+  "workload_seeds": [
+    42
+  ],
+  "robustness_seeds": [
+    41,
+    42,
+    43
+  ],
+  "duration_values_slots": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "duration_probabilities": [
+    0.25,
+    0.35,
+    0.25,
+    0.15
+  ],
+  "power_values_kw": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "power_probabilities": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.2,
+    0.1
+  ],
+  "deadline_hours": [
+    4.0,
+    12.0
+  ],
+  "capacity_scales": [
+    0.6,
+    0.8,
+    1.0,
+    1.2,
+    1.4
+  ],
+  "forecast_model": "recursive_autoregressive_ridge",
+  "forecast_update_slots": 4,
+  "forecast_train_days": 28,
+  "forecast_min_history_days": 7,
+  "forecast_lags": [
+    1,
+    2,
+    4,
+    96
+  ],
+  "forecast_min_train_samples": 192,
+  "forecast_ridge_alpha": 10.0,
+  "forecast_clip_multiplier": 2.0,
+  "forecast_cost_vintage": "latest_issue_at_task_release",
+  "milp_time_limit_seconds": 60,
+  "milp_relative_gap": 0.01,
+  "run_multi_day": true,
+  "run_robustness": true,
+  "run_capacity_sensitivity": true,
+  "numpy_version": "2.5.4",
+  "pandas_version": "3.1.1"
+}

@@ -1,0 +1,8 @@
+region,path,source_rows,intervals,valid_ci_intervals,inconsistent_intervals
+DE-LU,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\DE-LU_generation_with_estimated_carbon_intensity.csv,735840,35040,27130,0
+FR,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\FR_generation_with_estimated_carbon_intensity.csv,735840,35040,27025,0
+NL,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\NL_generation_with_estimated_carbon_intensity.csv,735840,35040,27513,0
+PL,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\PL_generation_with_estimated_carbon_intensity.csv,735840,35040,27130,0
+SE,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\SE_aggregated_generation_with_estimated_carbon_intensity.csv,35040,35040,27131,0
+NO,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\NO_aggregated_generation_with_estimated_carbon_intensity.csv,35040,35040,27128,0
+FI,C:\Games\Univer\teza_master\evaluation_of_spatio-temporal_task_scheduling\data\FI_generation_with_estimated_carbon_intensity.csv,735840,35040,27516,0

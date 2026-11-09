@@ -1,0 +1,8 @@
+region,power_capacity_kw,max_concurrent_jobs
+DE-LU,500.0,60
+FR,500.0,60
+NL,500.0,60
+PL,500.0,60
+SE,500.0,60
+NO,500.0,60
+FI,500.0,60
